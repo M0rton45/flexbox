@@ -1,0 +1,28 @@
+.flex-countainer{
+    border: 4px solid black;
+    text-align: center;
+    display: flex;
+}
+.flex-countainer div {
+    background-color: blueviolet;
+    font-size: 2em;
+    padding: 10px;
+}
+.flex-countainer > div:nth-child(1){
+    background-color: aqua;
+}
+.flex-countainer > div:nth-child(2){
+    background-color:darkblue;
+}
+.flex-countainer > div:nth-child(3){
+    background-color:brown;
+}
+html, body {
+    background-color: azure;
+    margin: 10px;
+}
+
+
+/*
+
+*/
