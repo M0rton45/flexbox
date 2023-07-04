@@ -25,7 +25,7 @@
     background-color: orange;
     display: flex;
     border: 4px lightcoral solid;
-    flex-grow: 3;
+    flex: 3;
     min-height: 70px;
     
 }
@@ -37,7 +37,7 @@
     
     background-color: lightcoral;
     display: flex;
-    flex-grow: 1;
+    flex: 1;
     justify-content: space-around;
 
     border: solid 4px red;
@@ -50,7 +50,7 @@
     margin-top: 1.2em;
 }
 .box{
-    flex-grow: 1;
+    flex: 1;
     display: flex;
     gap: 1em;
     flex-direction: column;
@@ -61,17 +61,9 @@
     border: solid 4px red;
     background-color: lightcoral;
     padding: 1em;
-    min-height: 200px;
-    flex-grow: 1;
+    flex: 1;
 }
-.content-box{
-    display: flex;
-    background-color: lightcoral;
-    flex-grow: 1;
-    border: solid 4px red;
-    padding: 1em;
-    min-height: 100px;
-}
+
 .countainer-double{
     display: flex;
     margin-top: 1.2em;
@@ -82,7 +74,7 @@
 .double-box{
     border: solid 4px purple;
     min-height: 100px;
-    flex-grow: 2;
+    flex: 2;
     display: flex;
     margin: 4px;
     background-color: lightseagreen;
@@ -91,7 +83,7 @@
     margin: 4px;
     border: solid 4px orange;
     min-height: 100px;
-    flex-grow: 1;
+    flex: 1;
     display: flex;
     background-color: lightsalmon;
 }
